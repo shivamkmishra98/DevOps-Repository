@@ -28,7 +28,7 @@ This repository documents my journey as I explore key DevOps concepts, tools, an
 ## 🧑‍💻 Structure
 
 ```bash
-devops-repository/
+DevOps-Repository/
 │
 ├── linux-basics/
 ├── docker/
