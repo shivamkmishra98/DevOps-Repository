@@ -54,7 +54,7 @@ Here’s a quick list of essential **Git & GitHub commands** for your DevOps too
 
 ---
 
-## 🚀 Pushing & Pulling
+##  Pushing & Pulling
 
 | Command | Description |
 |--------|-------------|
@@ -97,6 +97,19 @@ Here’s a quick list of essential **Git & GitHub commands** for your DevOps too
 | `git clean -f` | Delete untracked files |
 | `git reset --hard` | Discard all local changes |
 
+---
+## 🔁 Rebase
+
+| Command | Description |
+|--------|-------------|
+| `git rebase <branch>` | Rebase the current branch onto `<branch>` (replay commits) |
+| `git rebase --continue` | Continue after resolving conflicts during a rebase |
+| `git rebase --abort` | Abort rebase and return to original state |
+| `git rebase --skip` | Skip the current patch that failed during rebase |
+| `git rebase -i <commit>` | Interactive rebase starting from `<commit>` (use `-i HEAD~n` for last n commits) |
+| `git pull --rebase` | Fetch and rebase local commits on top of upstream (avoids merge commits) |
+| `git rebase --onto <newbase> <upstream> <branch>` | Rebase `<branch>` onto `<newbase>`, excluding commits already in `<upstream>` |
+| `git reflog` | (Handy after bad rebase) Find commit hashes to recover lost commits |
 ---
 
 ### ✅ Bonus Tips
