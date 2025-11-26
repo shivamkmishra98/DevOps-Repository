@@ -1,0 +1,207 @@
+# **Cloud Computing Cheat Sheet**
+
+## **1. Introduction**
+
+**Cloud Computing** is the delivery of computing services (servers, storage, networking, databases, analytics, software) over the internet on a pay-as-you-go model.
+
+### **Key Characteristics**
+
+* On-demand self-service
+* Broad network access
+* Resource pooling
+* Rapid elasticity and scalability
+* Measured service (pay-per-use)
+* High availability and reliability
+* Multi-tenancy
+
+---
+
+# **2. Service Models**
+
+## **IaaS – Infrastructure as a Service**
+
+* Provides virtualized computing resources over the internet
+* You manage: OS, apps, runtime, data
+* Provider manages: hardware, networking, virtualization
+  **Examples:** AWS EC2, Google Compute Engine, Azure VMs
+
+## **PaaS – Platform as a Service**
+
+* Provides hardware + software tools for application development
+* You manage: applications, data
+* Provider manages: OS, middleware, runtime
+  **Examples:** AWS Elastic Beanstalk, Google App Engine, Azure App Service
+
+## **SaaS – Software as a Service**
+
+* Fully managed applications delivered via browser
+* You manage: only usage
+* Provider manages everything
+  **Examples:** Gmail, Slack, Office 365
+
+---
+
+# **3. Deployment Models**
+
+## **Public Cloud**
+
+Owned and operated by third-party providers; resources shared among users.
+
+## **Private Cloud**
+
+Dedicated infrastructure for one organization; more control and security.
+
+## **Hybrid Cloud**
+
+Combination of public + private; enables workload portability.
+
+## **Community Cloud**
+
+Shared by organizations with common interests (security, compliance, mission).
+
+---
+
+# **4. Cloud Architecture Components**
+
+* **Client Layer:** Browsers, apps
+* **Application Layer:** SaaS apps, APIs
+* **Platform Layer:** Runtime, databases, middleware
+* **Infrastructure Layer:** Compute (VMs, containers), storage, network
+* **Virtualization Layer:** Hypervisors, container engines
+* **Physical Layer:** Servers, storage, data centers
+
+---
+
+# **5. Virtualization**
+
+### **Definition**
+
+Technology that creates virtual versions of hardware, storage, networks.
+
+### **Types**
+
+* Hardware Virtualization
+* OS-level Virtualization (Containers)
+* Network Virtualization
+* Storage Virtualization
+
+### **Hypervisors**
+
+* **Type 1 (Bare Metal):** Xen, VMware ESXi, Hyper-V
+* **Type 2 (Hosted):** VirtualBox, VMware Workstation
+
+---
+
+# **6. Containers & Microservices**
+
+* Containers use OS-level virtualization
+* Lightweight, portable, fast
+* Microservices architecture splits applications into loosely coupled services
+
+**Tools:** Docker, Podman, Kubernetes, Helm
+
+---
+
+# **7. Cloud Storage Types**
+
+* **Object Storage:** S3, Azure Blob, GCP Cloud Storage
+* **Block Storage:** EBS, Persistent Disk
+* **File Storage:** EFS, Azure Files
+* **Cold/Archive Storage:** Glacier
+
+---
+
+# **8. Networking in Cloud**
+
+* Virtual Private Cloud (VPC)
+* Subnets (Public/Private)
+* Internet Gateway
+* NAT Gateway
+* Load Balancers (L4, L7)
+* DNS Services
+* CDN (Content Delivery Network)
+
+---
+
+# **9. Security in Cloud**
+
+### **Shared Responsibility Model**
+
+* Cloud provider: Security *of* the cloud
+* Customer: Security *in* the cloud
+
+### **Key Security Concepts**
+
+* IAM (Identity and Access Management)
+* Encryption (at rest, in transit)
+* Firewalls & Security Groups
+* Compliance (ISO, GDPR, HIPAA)
+* Key Management Services
+
+---
+
+# **10. Cloud Scalability & Performance**
+
+* **Vertical Scaling:** Increase resources of one server
+* **Horizontal Scaling:** Add more servers
+* **Auto-scaling:** Automatic adjustment of capacity
+* **Load Balancing:** Distribute traffic across servers
+* **Caching:** Reduce data fetch time
+
+---
+
+# **11. Cloud Service Billing**
+
+### **Billing Models**
+
+* Pay-as-you-go
+* Reserved instances
+* Spot instances
+* Subscription plans
+
+### **Cost Optimization**
+
+* Right-sizing
+* Auto-scaling
+* Using serverless
+* Storage lifecycle policies
+
+---
+
+# **12. Serverless Computing**
+
+* No server provisioning
+* Event-driven
+* Automatically scales
+* Pay only for usage
+  **Examples:** AWS Lambda, Google Cloud Functions, Azure Functions
+
+---
+
+# **13. Cloud Management Tools**
+
+* **Infrastructure as Code (IaC):** Terraform, CloudFormation
+* **Monitoring:** CloudWatch, Azure Monitor, Stackdriver
+* **CI/CD:** GitHub Actions, Jenkins, GitLab CI
+
+---
+
+# **14. Emerging Trends**
+
+* Edge Computing
+* Fog Computing
+* Multi-cloud Deployments
+* AI/ML on Cloud
+* Quantum Cloud Services
+
+---
+
+# **15. Quick Comparison Table**
+
+| Model | User Manages      | Provider Manages         | Examples   |
+| ----- | ----------------- | ------------------------ | ---------- |
+| IaaS  | OS, apps, runtime | Hardware, virtualization | EC2, GCE   |
+| PaaS  | Apps, data        | OS, runtime, hardware    | App Engine |
+| SaaS  | Only usage        | Everything               | Gmail      |
+
+
