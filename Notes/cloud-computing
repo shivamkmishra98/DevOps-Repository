@@ -1,6 +1,6 @@
-# **Cloud Computing Cheat Sheet**
+## Cloud Computing Cheat Sheet
 
-## **1. Introduction**
+## 1. Introduction
 
 **Cloud Computing** is the delivery of computing services (servers, storage, networking, databases, analytics, software) over the internet on a pay-as-you-go model.
 
@@ -203,5 +203,6 @@ Technology that creates virtual versions of hardware, storage, networks.
 | IaaS  | OS, apps, runtime | Hardware, virtualization | EC2, GCE   |
 | PaaS  | Apps, data        | OS, runtime, hardware    | App Engine |
 | SaaS  | Only usage        | Everything               | Gmail      |
+
 
 
