@@ -6,7 +6,7 @@ Welcome to my **DevOps Learning Repository**, a comprehensive collection of note
 [![Learning Path](https://img.shields.io/badge/Focus-DevOps-blue)]()
 [![Maintained](https://img.shields.io/badge/Maintained-Yes-success)]()
 
----
+
 
 
 ## Overview
@@ -20,7 +20,6 @@ Each section contains:
 - Configurations and scripts  
 - Realistic DevOps workflows  
 
----
 
 ## Topics Covered
 
@@ -108,7 +107,7 @@ Each section contains:
 
 </details>
 
----
+
 
 ## Repository Structure
 
@@ -132,8 +131,6 @@ DevOps-Repository/
 
 ```
 
----
-
 ## How to Use
 
 1. Navigate through topic-wise folders.  
@@ -145,7 +142,6 @@ DevOps-Repository/
 git clone https://github.com/manishkumar8312/DevOps-Repository.git
 ```
 
----
 
 ## Roadmap
 
@@ -156,7 +152,7 @@ git clone https://github.com/manishkumar8312/DevOps-Repository.git
 - Advanced Kubernetes scaling  
 - Multi-cloud deployments  
 
----
+
 
 ## Contribution
 
@@ -169,7 +165,7 @@ Contributions, suggestions, and improvements are always welcome.
 3. Commit your changes  
 4. Submit a Pull Request  
 
----
+
 
 ## License
 
