@@ -324,3 +324,24 @@ Typical uptime: **99.9%**, **99.99%**, etc.
 * Enterprise SaaS
 * Disaster recovery and backup
 
+## **19. Cloud Monitoring Tools**
+
+* AWS CloudWatch
+* Azure Monitor
+* Datadog
+* Prometheus
+* Grafana
+
+---
+
+## **20. Cloud Use Cases**
+
+* Web hosting
+* Big data processing
+* AI/ML model training
+* IoT applications
+* Content delivery (CDN)
+* Enterprise SaaS
+* Disaster recovery and backup
+
+---
